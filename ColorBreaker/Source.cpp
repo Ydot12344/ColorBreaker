@@ -15,6 +15,6 @@ int main() {
 
 		glfwSwapBuffers(w.getWindow());
 	}
-
+	 
 	glfwTerminate();
 }
