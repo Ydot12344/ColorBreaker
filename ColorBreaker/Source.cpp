@@ -11,7 +11,7 @@ int main() {
 	//init();
 
 	while (!glfwWindowShouldClose(w.getWindow())) {
-		
+		char sobaka;
 	}
 
 	glfwTerminate();
