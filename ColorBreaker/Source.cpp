@@ -11,8 +11,9 @@ int main() {
 	//init();
 
 	while (!glfwWindowShouldClose(w.getWindow())) {
-		char sobaka;
-		char ydot_sobaka;
+		glfwPollEvents();
+
+		glfwSwapBuffers(w.getWindow());
 	}
 
 	glfwTerminate();
