@@ -12,6 +12,7 @@ int main() {
 
 	while (!glfwWindowShouldClose(w.getWindow())) {
 		char sobaka;
+		char ydot_sobaka;
 	}
 
 	glfwTerminate();
