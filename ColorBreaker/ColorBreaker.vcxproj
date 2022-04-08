@@ -79,7 +79,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(SolutionDir)\libs\glm;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\include;$(SolutionDir)\libs\assimp\include;$(SolutionDir)\libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib\Release\x64;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\lib-vc2019;$(SolutionDir)\libs\assimp\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\lib-vc2019;$(SolutionDir)\libs\assimp\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
