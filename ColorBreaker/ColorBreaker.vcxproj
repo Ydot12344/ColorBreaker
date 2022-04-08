@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)\libs\glm;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\include;$(SolutionDir)\libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib\Release\x64;$(SolutionDir)\libs\glfw-3.3.7.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\libs\glm;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\include;$(SolutionDir)\libs\assimp\include;$(SolutionDir)\libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib\Release\x64;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\lib-vc2019;$(SolutionDir)\libs\assimp\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -123,7 +123,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
