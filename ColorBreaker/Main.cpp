@@ -1,10 +1,20 @@
 #define GLEW_STATIC
+
+// GLEW
 #include<GL/glew.h>
+
+// GLFW
 #include<GLFW/glfw3.h>
+
+// GLM
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+
+// Std
 #include<utility>
 #include<iostream>
+
+// Custom
 #include "Window.h"
 #include"Camera.h"
 
