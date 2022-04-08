@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Git progs\lib\glfw-3.3.7.bin.WIN64\include;D:\Git progs\lib\glm;D:\Git progs\lib\glew-2.1.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Git progs\lib\glew-2.1.0\lib\Release\x64;D:\Git progs\lib\glfw-3.3.7.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\libs\glm;$(SolutionDir)\libs\glfw-3.3.6.bin.WIN64\include;$(SolutionDir)\libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\libs\glew-2.1.0\lib\Release\x64;$(SolutionDir)\libs\glfw-3.3.7.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
