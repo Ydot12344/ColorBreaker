@@ -78,7 +78,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\C++libs\soil-master\inc;D:\C++libs\glfw-3.3.6.bin.WIN64\include;D:\C++libs\glm;D:\C++libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\C++libs\glfw-3.3.6.bin.WIN64\include;D:\C++libs\glm;D:\C++libs\glew-2.1.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\C++libs\glew-2.1.0\lib\Release\x64;D:\C++libs\glfw-3.3.6.bin.WIN64\lib-vc2019;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
